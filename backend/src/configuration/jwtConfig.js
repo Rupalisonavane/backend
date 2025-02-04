@@ -1,6 +1,7 @@
-const crypto=require("crypto");
-const secreteKey=crypto.randomBytes(32).toString('hex');
+const crypto = require("crypto");
 
-module.export={
-    secreteKey:secreteKey
-}
+const secretKey = crypto.randomBytes(32).toString("hex");
+
+module.exports = {
+  secretKey:secretKey 
+};
